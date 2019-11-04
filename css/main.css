@@ -1015,4 +1015,13 @@ body {
     margin-top: 110px;
   }
 }
+
+@media only screen and (max-width: 380px) {
+  .area {
+    height: 50vh;
+  }
+  .main h1 {
+    font-size: 35px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

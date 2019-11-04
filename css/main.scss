@@ -657,6 +657,10 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
+    .main #myName {
+    
+    }
+    
     #work {
         font-size: 9vw;
     }
@@ -667,5 +671,15 @@ body {
 
     .my-info .about-content-holder {
         margin-top: 110px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .area {
+        height: 50vh;
+    }
+
+    .main h1 {
+        font-size: 35px;
     }
 }
