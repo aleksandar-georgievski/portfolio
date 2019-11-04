@@ -43,7 +43,7 @@ $(document).ready(function () {
         $('.hidden-text').html(" <strong class='bold-text'>Wordpress</strong> <p class='text-appear'>I create Wordpress Websites, and the reason is simple: YOU can easily update every piece of content, turn sections on or off and so much more.</p>");
     });
 
-    
+
     // Adding Active class
     $('.skill-items').click(function () {
         $('.skill-items').removeClass('active');
@@ -62,10 +62,5 @@ $(document).ready(function () {
 
         }
     });
-
-
-
-    
-
 
 });

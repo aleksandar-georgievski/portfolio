@@ -21,7 +21,7 @@
         top: 0px;
         right: 0px;
         padding: 30px 15px;
-        position: fixed;
+        position: absolute;
 
         .back-button {
             width: 50px;
@@ -239,5 +239,15 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .project-info-container{
+        display: block;
+    }
+
+    .project-image-container {
+        margin-top: 500px;
     }
 }

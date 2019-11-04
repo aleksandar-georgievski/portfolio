@@ -17,7 +17,7 @@
   top: 0px;
   right: 0px;
   padding: 30px 15px;
-  position: fixed;
+  position: absolute;
 }
 
 .project-container .project-info-container .back-button {
@@ -285,6 +285,15 @@
           transform-origin: left;
 }
 
+@media only screen and (max-width: 770px) {
+  .project-info-container {
+    display: block;
+  }
+  .project-image-container {
+    margin-top: 500px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -348,6 +357,12 @@ body {
   position: relative;
   min-height: 100vh;
   padding: 280px 0px 220px;
+}
+
+.main .navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
 }
 
 .main .fixed-img-1 {
@@ -1007,12 +1022,32 @@ body {
 @media only screen and (max-width: 700px) {
   #work {
     font-size: 9vw;
+    margin-top: 180px;
   }
   .my-info .my-name {
     margin-top: 30px;
   }
   .my-info .about-content-holder {
     margin-top: 110px;
+  }
+  .navbar-light .navbar-toggler {
+    background-color: #E1253B;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .project-4 {
+    margin-top: 210px;
+  }
+  .my-info {
+    margin-top: 150px;
+  }
+  #header .navbar {
+    padding: 20px 20px;
+  }
+  #header .navbar .nav-link {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -1022,6 +1057,13 @@ body {
   }
   .main h1 {
     font-size: 35px;
+  }
+  .main .btn-head {
+    width: 155px;
+  }
+  #skill {
+    font-size: 30px;
+    left: -10px;
   }
 }
 /*# sourceMappingURL=main.css.map */

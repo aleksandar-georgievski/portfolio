@@ -74,6 +74,11 @@ body {
     min-height: 100vh;
     padding: 280px 0px 220px;
 
+    .navbar-fixed-top.scrolled {
+        background-color: #fff !important;
+        transition: background-color 200ms linear;
+    }
+
     .fixed-img-1 {
         position: absolute;
         width: 70%;
@@ -630,8 +635,9 @@ body {
     .about-content-label {
         padding-bottom: 30px;
     }
+
     .about-contact-label {
-        padding-bottom: 30px;  
+        padding-bottom: 30px;
     }
 }
 
@@ -657,20 +663,42 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
-    .main #myName {
-    
-    }
-    
+
     #work {
         font-size: 9vw;
+        margin-top: 180px;
+
     }
 
-    .my-info .my-name  {
+    .my-info .my-name {
         margin-top: 30px;
     }
 
     .my-info .about-content-holder {
         margin-top: 110px;
+    }
+
+    .navbar-light .navbar-toggler {
+        background-color: #E1253B;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .project-4 {
+        margin-top: 210px;
+    }
+
+    .my-info {
+        margin-top: 150px;
+    }
+
+    #header .navbar {
+        padding: 20px 20px;
+    }
+
+    #header .navbar .nav-link {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.6);
     }
 }
 
@@ -681,5 +709,14 @@ body {
 
     .main h1 {
         font-size: 35px;
+    }
+
+    .main .btn-head {
+        width: 155px;
+    }
+
+    #skill {
+        font-size: 30px;
+        left: -10px;
     }
 }
